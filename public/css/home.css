@@ -345,3 +345,106 @@ nav {
 #google-btn-container button a:hover {
     color: #F25E6B;
 }
+
+#band-container {
+    width: 100%;
+    height: 90vh;
+    background-color: #F25E6B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#band-container > h1 {
+    color: white;
+}
+
+#band-container > h1:nth-child(2){
+    margin-bottom: 5rem;
+}
+
+.long-white-red-btn {
+    color: #F25E6B;
+    background-color: white;
+    border: 3px solid transparent;
+    border-radius: 40px;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    width: 85%;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.long-white-red-btn a {
+    color: #F25E6B;
+}
+
+.long-white-red-btn:hover {
+    color: white;
+    background-color: #F25E6B;
+    border-color: white;
+}
+
+.long-white-red-btn:hover a {
+    color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 65vh;
+    width: 100%;
+    background-color: #F6F3EF;
+    padding: 2rem 5rem;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+#footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#footer-left img {
+    width: 25%;
+}
+
+#footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 50%;
+}
+
+.footer-right-column,
+.footer-right-column a {
+    width: 100%;
+}
+
+.footer-right-column li {
+    margin: 1rem 0;
+}
+
+.page::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 20px; /* Set the height of the wavy border */
+    border-style: solid;
+    border-width: 10px; /* Adjust the thickness of the border */
+    border-color: transparent transparent transparent transparent; /* Set border colors as needed */
+    border-image: url('../images/wavy-border.svg');
+}
+
